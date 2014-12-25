@@ -64,7 +64,7 @@ public class GUIController : MonoBehaviour {
 	}
 
 	public void SetScreen(GameScreen newScreen, bool doTransitions){
-		SetScreen (newScreen, doTransitions);
+		AnimateGoToScreen (newScreen, doTransitions);
 	}
 
 	void AnimateGoToScreen(GameScreen newScreen, bool doTransitions){
